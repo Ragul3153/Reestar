@@ -1,0 +1,65 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.title h1{
+    padding-top: 5px;
+}
+
+.title p{
+    padding-bottom: 10px;
+}
+
+.img-sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+}
+
+.image1 img{
+    width: 230px;
+    height: 58%;
+}
+
+.image1{
+    border: solid black 2px;
+    text-align: center;
+}
+
+.final{
+    color: white;
+    background-color: black;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 1px
+}
+
+.button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.send button{
+    width: 400px;
+    background-color: yellow;
+    height: 25px;
+}
+
+.send{
+    padding-bottom: 10px;
+}
+
+
